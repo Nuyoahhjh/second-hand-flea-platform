@@ -1,0 +1,22 @@
+mysql:
+# 数据库连接信息
+  dns: root:******@tcp(127.0.0.1:3306)/tiaozao?charset=utf8mb4&parseTime=True&loc=Local
+token:
+# token有效期
+  time: 24
+# token加密密钥
+  secretKey: "tiaozao"
+server:
+# 服务端口
+  port: "9001"
+email:
+# 发送者邮箱
+  from: "*****@qq.com"
+# 授权码
+  pass: "**********"
+# 邮箱服务器
+  host: "smtp.qq.com"
+  port: "587"
+password:
+# 用户密码加密密钥 格式必须是16个16进制字符
+  secretKey: "0123456789abcdef"

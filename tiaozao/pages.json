@@ -1,0 +1,104 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "工商二手市场"
+			}
+		},{
+			"path": "pages/publish/index",
+			"style": {
+				"navigationBarTitleText": "编辑商品"
+			}
+		},{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "全部商品",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/newGoods/newGoods",
+			"style": {
+				"navigationBarTitleText": "最新商品",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/hotGoods/hotGoods",
+			"style": {
+				"navigationBarTitleText": "热门商品",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/freeGoods/freeGoods",
+			"style": {
+				"navigationBarTitleText": "免费商品",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/item/item",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/collect/collect",
+			"style": {
+				"navigationBarTitleText": "收藏列表"
+			}
+		}, {
+			"path": "pages/myPublish/myPublish",
+			"style": {
+				"navigationBarTitleText": "我发布的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "二手跳蚤平台",
+		"navigationBarBackgroundColor": "#ffffcc",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#f4ea2a",
+		"color": "#515151",
+		"backgroundColor":"#fff",
+		"list": [{
+			"text": "首页",
+			"pagePath": "pages/index/index",
+			"iconPath": "https://ithejunhao-1312274892.cos.ap-chongqing.myqcloud.com/tiaozao/home.png",
+			"selectedIconPath": "https://ithejunhao-1312274892.cos.ap-chongqing.myqcloud.com/tiaozao/home_active.png"
+		}, {
+			"text": "发布",
+			"pagePath": "pages/publish/index",
+			"iconPath": "https://ithejunhao-1312274892.cos.ap-chongqing.myqcloud.com/tiaozao/publish.png",
+			"selectedIconPath": "https://ithejunhao-1312274892.cos.ap-chongqing.myqcloud.com/tiaozao/publish_active.png"
+		}, {
+			"text": "我的",
+			"pagePath": "pages/my/index",
+			"iconPath": "https://ithejunhao-1312274892.cos.ap-chongqing.myqcloud.com/tiaozao/my.png",
+			"selectedIconPath": "https://ithejunhao-1312274892.cos.ap-chongqing.myqcloud.com/tiaozao/my_active.png"
+		}]
+	},
+	"uniIdRouter": {}
+}
